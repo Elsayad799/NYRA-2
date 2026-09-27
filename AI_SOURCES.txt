@@ -1,0 +1,14 @@
+NYRA AI — INTERNAL AI SOURCES
+
+No new AI API key is requested from the operator.
+
+Integrated supplied sources:
+- ai.py -> multi-search backend route with Firebase identity bootstrap
+- ai_2.py -> AI-Seek SSE route
+- photo.py -> image-generation tool, imported without starting its own polling loop
+
+The request/response logic is exposed through NYRA's internal adapters so the Agent Core can call it instead of running separate bots/console loops.
+
+Runtime input:
+- Telegram bot token
+- Optional admin Telegram ID(s)

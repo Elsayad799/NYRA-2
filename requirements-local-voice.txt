@@ -1,0 +1,3 @@
+# Optional local reference-voice synthesis.
+# Heavy dependency: install only on a machine with enough RAM/storage.
+TTS>=0.22,<0.23

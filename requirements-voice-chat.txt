@@ -1,0 +1,5 @@
+# Optional: only for Linux/macOS/Windows group Voice Chat
+pyrogram>=2.0
+py-tgcalls>=2.2
+
+pytgcalls>=4.0

@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/*.db
+
+voice_clone_accounts.json
+voice_clone_session.json
+sessions.json
+voice_clone_cache.json

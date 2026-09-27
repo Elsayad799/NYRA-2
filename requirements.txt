@@ -1,0 +1,23 @@
+pyTelegramBotAPI>=4.29,<5
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+Pillow>=10,<12
+pytest>=8,<9
+huggingface_hub>=0.34.0
+gTTS>=2.5,<3
+SpeechRecognition>=3.14,<4
+imageio-ffmpeg>=0.6,<1
+yt-dlp>=2025.1.0,<2027
+
+shazamio>=0.8.2,<1
+
+edge-tts>=7.0,<8
+pytesseract>=0.3.13,<1
+# Optional tg-music-bot / MTProto voice-chat layer (Linux/desktop recommended)
+pyrogram>=2.0,<3
+aiogram>=2.25,<3
+environs>=9.5,<10
+
+user-agents>=2.2,<3
+
+# Compatibility shim in project root provides legacy user_agent import used by the supplied voice-clone engine.
